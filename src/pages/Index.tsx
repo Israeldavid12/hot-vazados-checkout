@@ -6,11 +6,11 @@ import PurchaseNotification from "@/components/PurchaseNotification";
 
 const Index = () => {
   const product = {
-    name: "Método tomate Maduro",
-    description: "Método tomate Maduro",
-    price: 247.0,
+    name: "Grupo secreto de vazados",
+    description: "Grupo secreto de vazados",
+    price: 250.0,
     currency: "MT",
-    author: "Dr. João Silva",
+    author: "Grupo secreto de vazados",
   };
 
   const handlePaymentSuccess = () => {

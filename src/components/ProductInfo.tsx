@@ -1,4 +1,5 @@
 import { Shield } from "lucide-react";
+import productImage from "../assets/product-image.jpg";
 
 interface ProductInfoProps {
   productName: string;
@@ -33,6 +34,10 @@ const ProductInfo = ({
         <h2 className="font-bold text-foreground text-lg leading-tight">
           {productName}
         </h2>
+        <img
+        className="w-16 h-15"
+         src={productImage} alt={productName} />
+
         {productDescription && (
           <p className="text-sm text-muted-foreground">{productDescription}</p>
         )}

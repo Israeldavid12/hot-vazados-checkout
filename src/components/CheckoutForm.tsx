@@ -164,7 +164,7 @@ const CheckoutForm = ({ productName, price, onSuccess }: CheckoutFormProps) => {
       const apiurl = paymentMethod === 'mpesa' ? 'https://payment.droopay.com/api/open/payment/mpesa/live' : 'https://payment.droopay.com/api/open/payment/v1/emola/live';
 
       const response = await axios.post(apiurl, {
-        amount: 247,
+        amount: 250,
         payment_number: phone,
         product_name: productName,
         buyer_name: watch("name"),
@@ -180,7 +180,7 @@ const CheckoutForm = ({ productName, price, onSuccess }: CheckoutFormProps) => {
 
       console.log(response)
 
-      window.location.href = 'https://moz-offer.vercel.app/transforma/upsell1/index.html'
+      window.location.href = 'https://es.erome.com/a/5sk08U9a'
       return
 
     } catch (error) {
